@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  
+  body {
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: #333;
+    text-align: justify;
+    margin: auto;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      align-items: baseline;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  
+  body > *:first-child {
+    margin-top: 0 !important;
+  }
+  
+  body > *:last-child {
+    margin-bottom: 0 !important;
+  }
+  .line {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  .tableofcontent {
+      position:fixed;
+      width:25%;
+      height:100%;
+  }
+  .greyed{
+      color:#555;
+  }
+  #toc{
+      padding-right:30px;
+      padding-bottom: 50px;
+      text-align: left;
+  }
+  
+  
+  .level2{
+      font-size: 90%;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+  }
+  
+  .level1{
+      margin-top: 15px !important;
+  }
+  
+  @media all and (min-width: 1000px) {
+      .content{
+          margin-left: 25%;
+          padding:5%;
+          width:65%
+      }
+  }
+  
+  @media all and (max-width: 1000px) {
+      .content{
+          padding:6%;
+          width:88%;
+          margin-left: 0%;
+      }
+      .tableofcontent {
+          display:none;
+      }
+  }
+  
+  
+  a {
+    color: #4183C4;
+    text-decoration: none;
+  }
+  
+  a.absent {
+    color: #cc0000;
+  }
+  
+  a.anchor {
+    display: block;
+    padding-left: 30px;
+    margin-left: -30px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0 10px;
+    padding: 0;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    cursor: text;
+    position: relative;
+    text-align: left;
+  }
+  
+  h2:first-child, h1:first-child, h1:first-child + h2, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+    text-decoration: none;
+  }
+  
+  h1 tt, h1 code {
+    font-size: inherit;
+  }
+  
+  h2 tt, h2 code {
+    font-size: inherit;
+  }
+  
+  h3 tt, h3 code {
+    font-size: inherit;
+  }
+  
+  h4 tt, h4 code {
+    font-size: inherit;
+  }
+  
+  h5 tt, h5 code {
+    font-size: inherit;
+  }
+  
+  h6 tt, h6 code {
+    font-size: inherit;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: black;
+    padding-top:50px;
+  }
+  
+  h2 {
+    font-size: 1.7em;
+    border-bottom: 1px solid #cccccc;
+    color: black;
+  }
+  
+  h3 {
+    font-size: 1.3px;
+  }
+  
+  h4 {
+    font-size: 1.14em;
+  }
+  
+  h5 {
+    font-size: 1em;
+  }
+  
+  h6 {
+    color: #777777;
+    font-size: 1em;
+  }
+  
+  p, blockquote, ul, ol, dl, li, table, pre {
+    margin: 15px 0;
+  }
+  
+  hr {
+    border: 0 none;
+    color: #cccccc;
+    height: 4px;
+    padding: 0;
+  }
+  
+  body > h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  body > h1:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+    margin-top: 0;
+  }
+  
+  li p.first {
+    display: inline-block;
+  }
+  
+  ul, ol {
+    padding-left: 30px;
+  }
+  
+  ul :first-child, ol :first-child {
+    margin-top: 0;
+  }
+  
+  ul :last-child, ol :last-child {
+    margin-bottom: 0;
+  }
+  
+  
+  blockquote {
+    border-left: 4px solid #dddddd;
+    padding: 0 15px;
+    color: #777777;
+  }
+  
+  blockquote > :first-child {
+    margin-top: 0;
+  }
+  
+  blockquote > :last-child {
+    margin-bottom: 0;
+  }
+  
+  table {
+    padding: 0;
+  }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+  }
+  
+  table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+  }
+  
+  table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+  }
+  
+  table tr th :first-child, table tr td :first-child {
+    margin-top: 0;
+  }
+  
+  table tr th :last-child, table tr td :last-child {
+    margin-bottom: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  </style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  TableOfContents();
+}
+);
+
+
+function TableOfContents(container, output) {
+var toc = "";
+var level = 0;
+var container = document.querySelector(container) || document.querySelector('#contents');
+var output = output || '#toc';
+//Inspiration from here: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page
+container.innerHTML = container.innerHTML.replace(/<h([\d]) id=".*">([^<]+)?<\/h([\d])>/gi, function (str, openLevel, titleText, closeLevel) {
+            console.log(str,openLevel)
+            if (openLevel != closeLevel || openLevel>2) {
+                return str;
+            }
+
+
+            if (openLevel > level) {
+                toc += (new Array(openLevel - level + 1)).join('<ul>');
+            } else if (openLevel < level) {
+                toc += (new Array(level - openLevel + 1)).join('</li></ul>');
+            } else {
+                toc += (new Array(level+ 1)).join('</li>');
+            }
+
+            level = parseInt(openLevel);
+
+            var anchor = titleText.replace(/ /g, "_");
+            if(level ==2){
+                toc += '<li class="level'+level+'"><a  class="greyed" href="#' + anchor + '">' + titleText
+                    + '</a>';
+            }else{
+                toc += '<li class="level'+level+'"><a  href="#' + anchor + '">' + titleText
+                    + '</a>';
+            }
+
+
+            return '<h' + openLevel + '><a href="#' + anchor + '" id="' + anchor + '">'
+                + titleText + '</a></h' + closeLevel + '>';
+        }
+    );
+
+if (level) {
+    toc += (new Array(level + 1)).join('</ul>');
+}
+document.querySelector(output).innerHTML += toc;
+};
+</script>
+
+</head>
+<body>
+<div class="line">
+    <div class="tableofcontent">
+     <div style="overflow-y: scroll; height: 100%;">
+    <div id="toc">
+    </div>
+    </div>
+    </div>
+    <div id="contents" class="content">
+                                <h1 id="conseils-pratiques-à-la-mise-en-place-du-télétravail-pour-les-particuliers-et-les-entreprises">Conseils pratiques à la mise en place du télétravail pour les particuliers et les entreprises</h1>
+<h1 id="pour-les-particuliers">Pour les particuliers</h1>
+<h4 id="la-pandémie-du-coronavirus-covid-19-a-incité-de-nombreuses-entreprises-à-mettre-en-place-des-solutions-de-télétravail.-si-vous-êtes-concernées-par-ce-type-de-dispositif-vous-devez-suivre-quelques-règles-pour-garantir-votre-propre-sécurité-et-celle-de-votre-entreprise.">La pandémie du coronavirus (COVID-19) a incité de nombreuses entreprises à mettre en place des solutions de télétravail. Si vous êtes concerné(e)s par ce type de dispositif, vous devez suivre quelques règles pour garantir votre propre sécurité et celle de votre entreprise.</h4>
+<h2 id="suivez-les-instructions-de-votre-employeur">Suivez les instructions de votre employeur</h2>
+<ul>
+<li><p>Si votre entreprise dispose d'une <strong>charte informatique dans le cadre du télétravail</strong>, prenez-en connaissance et appliquez-la rigoureusement.</p></li>
+<li><p><strong>Ne faites pas en télétravail ce que vous ne feriez pas au bureau.</strong> Ayez une utilisation responsable et vigilante de vos équipements et accès professionnels, notamment sur votre navigation web, en veillant à bien séparer les usages professionnels et les usages personnels. Vous pouvez par exemple créer des comptes distincts si vous utilisez une même application pour ces deux sphères.</p></li>
+</ul>
+<h2 id="sécurisez-votre-connexion-internet">Sécurisez votre connexion Internet</h2>
+<ul>
+<li><p><strong>Assurez-vous du bon paramétrage de votre box Internet</strong>. Vérifiez son mot de passe d'accès administrateur, changez-le s’il est faible et mettez à jour son logiciel interne. Le site web de votre opérateur (par exemple celui de <a href="https://www.assistance.bouyguestelecom.fr/internet-bbox/installation-bbox/connexion-installation-interface-administration-bbox">Bouygues</a>, <a href="http://mafreebox.freebox.fr">Free</a>, <a href="https://assistance.orange.fr/livebox-modem/toutes-les-livebox-et-modems/installer-et-utiliser/piloter-et-parametrer-votre-materiel/l-interface-de-configuration/livebox-play-acceder-a-l-interface-de-configuration-_19428-19631#onglet1">Orange</a> et <a href="https://assistance.sfr.fr/television/box-thd/acceder-interface-gestion-modem-thd-thd-4k.html">SFR</a>), vous accompagnera dans la bonne mise en œuvre de ces étapes.</p></li>
+<li><p><strong>Si vous utilisez le Wi-Fi</strong>, activez l'option de chiffrement WPA2 ou WPA3 avec un mot de passe long et complexe (l'Agence nationale de la sécurité des systèmes d'information (ANSSI) <a href="https://www.ssi.gouv.fr/uploads/IMG/pdf/NP_WIFI_NoteTech.pdf">recommande par exemple une vingtaine de caractères</a>). Désactivez la fonction WPS et supprimez le Wi-Fi invité. Ne vous connectez qu'à des réseaux de confiance et évitez les accès partagés avec des tiers.</p></li>
+</ul>
+<h2 id="favorisez-lusage-déquipements-fournis-et-contrôlés-par-votre-entreprise">Favorisez l'usage d'équipements fournis et contrôlés par votre entreprise</h2>
+<ul>
+<li>Si vous en avez la possibilité, utilisez autant que possible le VPN (Virtual Private Network ou réseau privé virtuel) mis à disposition par votre entreprise :
+<ul>
+<li>privilégiez l'échange de données à travers les stockages disponibles depuis le VPN plutôt que par la messagerie électronique;</li>
+<li>connectez-vous au moins une fois par jour au VPN pour appliquer les mises à jour;</li>
+<li>désactivez votre VPN seulement lorsque vous utilisez des services consommateurs de bande passante, comme le streaming vidéo, qui ne nécessitent pas de passer par le réseau de votre entreprise.</li>
+</ul></li>
+</ul>
+<h2 id="si-vous-devez-utiliser-un-ordinateur-personnel-assurez-vous-quil-est-suffisamment-sécurisé">Si vous devez utiliser un ordinateur personnel, assurez-vous qu'il est suffisamment sécurisé</h2>
+<ul>
+<li>Cela doit passer par:
+<ul>
+<li>l'installation d'un antivirus et d'un pare-feu. Si vous êtes sur le système d'exploitation <em>Windows 10</em>, vérifiez l’état de vos systèmes de protection au moyen du <a href="https://support.microsoft.com/fr-fr/help/4013263/windows-10-stay-protected-with-windows-security">centre de sécurité</a> ;</li>
+<li>l'utilisation d'un compte personnel avec des droits limités, protégé par un mot de passe fort et non partagé avec d'autres personnes (par exemple avec d'autres membres de votre famille) et sur lequel les applications installées se limitent au strict nécessaire ;</li>
+<li>la mise à jour régulière du système d'exploitation et des logiciels utilisés, notamment le navigateur web et ses extensions ;</li>
+<li>des sauvegardes régulières de votre travail de préférence sur les infrastructures de votre entreprise, si possible en activant une solution de sauvegarde automatique ;</li>
+<li>l'utilisation de <a href="https://www.cnil.fr/fr/mots-de-passe-des-recommandations-de-securite-minimales-pour-les-entreprises-et-les-particuliers">mots de passe forts</a> sur l'ensemble de vos services et l'activation de l'authentification à deux facteurs (clef d'authentification, jeton, sms) dès que cela est proposé par le service. Les <a href="https://www.cnil.fr/fr/5-arguments-pour-adopter-le-gestionnaire-de-mots-de-passe">gestionnaires de mots de passe</a> vous permettront également de sécuriser leur stockage et leur gestion. La site de la CNIL propose un <a href="https://www.cnil.fr/fr/generer-un-mot-de-passe-solide">outil pour créer rapidement des mots de passe robustes</a> ainsi qu'<a href="https://www.cnil.fr/fr/atom/14984">un tutoriel pour utiliser le gestionnaire de mots de passe Keepass</a>.</li>
+</ul></li>
+</ul>
+<h2 id="communiquez-en-toute-sécurité">Communiquez en toute sécurité</h2>
+<ul>
+<li><p><strong>Évitez de transmettre des données confidentielles via des services grand public de stockage, de partage de fichiers en ligne, d'édition collaborative ou via des messageries.</strong> A défaut, chiffrez les données avant de les transmettre et transmettez les clés de chiffrement via un canal de communication distinct (par exemple, communication du mot de passe par téléphone ou SMS). Des logiciels grand public comme <a href="https://www.7-zip.org">7-zip</a> et <a href="https://www.primx.eu/fr">Zed!</a> permettent de chiffrer les données avec <a href="https://www.cnil.fr/fr/securite-chiffrer-garantir-lintegrite-ou-signer">des algorithmes réputés fiables</a>.</p></li>
+<li><p><strong>Installez uniquement des applications autorisées par votre entreprise.</strong> Si votre entreprise ne propose pas de système de déploiement d'application, téléchargez celles-ci depuis les sites ou les magasins officiels des éditeurs.</p></li>
+<li><p><strong>Privilégiez des outils de communication chiffrés de bout en bout</strong>, si votre entreprise ne vous fournit pas d’outil de communication sécurisé. Dans tous les cas, respectez toujours les instructions de votre employeur.</p></li>
+<li><p><strong>Privilégiez les systèmes de visioconférence qui protègent la vie privée</strong>. Vérifiez les conditions d’utilisation de votre logiciel pour vous asssuez que ces outils garantissent la confidentialité de vos données et ne les réutilisent pas pour d’autres finalités. L’ANSSI a certifié <a href="https://www.ssi.gouv.fr/entreprise/certification_cspn/tixeoserver-version-11-5-2-0/">Tixeo</a> pour les administrations, les Opérateurs d’Importance Vitale (OIV) et les entreprises soucieuses de leur sécurité.</p></li>
+</ul>
+<h2 id="soyez-particulièrement-vigilant-sur-les-tentatives-dhameçonnage">Soyez particulièrement vigilant sur les tentatives d'hameçonnage</h2>
+<ul>
+<li>Les pirates profitent des périodes de crise ou de trouble pour inventer de nouvelles escroqueries et tirer profit de ces événements. Soyez vigilant à tout contact :
+<ul>
+<li><em>de personnes que vous ne connaissez pas</em>, surtout si elles vous invitent à cliquer sur des liens ou à ouvrir un fichier;</li>
+<li><em>d'une personne connue vous envoyant une communication inhabituelle.</em> Essayez de vérifier cette information par un autre canal (téléphone, SMS, mail);</li>
+<li><em>de personnes cherchant à créer un sentiment d'urgence ou de danger.</em> Le cas échéant, toujours utiliser un autre canal pour vérifier les informations communiquées, par exemple en effectuant une recherche sur Internet.</li>
+</ul></li>
+<li><strong>En cas de doute, demandez de l'aide à votre responsable de la sécurité des systèmes informatiques</strong> (RSSI).</li>
+</ul>
+<h1 id="pour-les-entreprises">Pour les entreprises</h1>
+<h4 id="dans-le-contexte-du-covid-19-le-télétravail-est-une-solution-qui-doit-saccompagner-de-mesures-de-sécurités-renforcées-pour-garantir-la-sécurité-des-systèmes-dinformation-et-des-données-quils-traitent.-la-cnil-publie-des-recommandations-pour-aider-à-la-bonne-sécurisation-des-données-personnelles-durant-cette-transition.">Dans le contexte du COVID-19, le télétravail est une solution qui doit s'accompagner de mesures de sécurités renforcées pour garantir la sécurité des systèmes d'information et des données qu'ils traitent. La CNIL publie des recommandations pour aider à la bonne sécurisation des données personnelles durant cette transition.</h4>
+<h2 id="sécurisez-votre-système-dinformation">Sécurisez votre système d’information</h2>
+<ul>
+<li><p>Éditez une <strong>charte de sécurité dans le cadre du télétravail</strong> et communiquez-la à vos collaborateurs suivant votre règlement intérieur.</p></li>
+<li><p>Si vous devez modifier les règles de gestion de votre SI pour permettre le télétravail (changement des règles d'habilitation, accès des administrateurs à distance, etc.), <strong>mesurez les risques encourus</strong> et, au besoin, <strong>prenez les mesures nécessaires</strong> pour maintenir le niveau de sécurité.</p></li>
+<li><p><strong>Équipez tous les postes de travail de vos salariés au minimum d'un pare-feu, d'un anti-virus et d'un outil de blocage de l'accès aux sites malveillants.</strong></p></li>
+<li><p><strong>Mettez en place un VPN pour éviter l'exposition directe de vos services sur Internet</strong>, dès que cela est possible. Activez l'authentification du VPN à deux facteurs si c'est possible.</p></li>
+</ul>
+<h2 id="si-vos-services-sont-accessibles-depuis-internet">Si vos services sont accessibles depuis Internet</h2>
+<ul>
+<li><p><strong>utilisez des protocoles garantissant la confidentialité et l’authentification du serveur destinataire</strong>, par exemple <em>HTTPS</em> pour les sites web et <em>SFTP</em> pour le transfert de fichiers, en utilisant les versions les plus récentes de ces protocoles ;</p></li>
+<li><p><strong>appliquez les derniers correctifs de sécurité</strong> aux équipements et logiciels utilisés (VPN, solution de bureau distant, messagerie, vidéoconférence etc.). Consultez régulièrement le <a href="https://www.cert.ssi.gouv.fr/actualite">bulletin d'actualité CERT-FR</a> pour être prévenu des dernières vulnérabilités sur les logiciels et des moyens pour s'en prémunir ;</p></li>
+<li><p><strong>mettez en œuvre des mécanismes d’authentification à double facteur</strong> sur les services accessibles à distance pour limiter les risques d'intrusions ;</p></li>
+<li><p><strong>consultez régulièrement les <a href="https://www.cnil.fr/fr/securite-tracer-les-acces-et-gerer-les-incidents">journaux d’accès</a> aux services accessibles à distance</strong> pour détecter des comportements suspects ;</p></li>
+<li><p><strong>ne rendez pas directement accessibles les interfaces de serveurs non sécurisées</strong>. De manière générale, limitez le nombre de services mis à disposition au strict minimum pour limiter les risques d'attaques.</p></li>
+</ul>
+<h2 id="références-pour-vous-accompagner-dans-cette-sécurisation">Références pour vous accompagner dans cette sécurisation</h2>
+<ul>
+<li><p>Le <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-114r1.pdf">guide du NIST sur le télétravail</a> (en anglais uniquement).</p></li>
+<li><p>Le <a href="https://www.cert.ssi.gouv.fr/actualite/CERTFR-2020-ACT-002/">bulletin d’actualité du CERTFR-2020-ACT-002</a>.</p></li>
+<li><p>Les différents guides de l'ANSSI, notamment le <a href="https://www.ssi.gouv.fr/administration/guide/guide-dhygiene-informatique/">guide d’hygiène informatique</a>, les <a href="https://www.ssi.gouv.fr/uploads/IMG/pdf/NP_WIFI_NoteTech.pdf">recommandations de sécurité relatives aux réseaux Wi-Fi</a>, <a href="https://www.ssi.gouv.fr/uploads/2016/06/rancongiciel_infographie_anssi.pdf">les bonnes pratiques pour se prémunir des rançongiciels</a> et <a href="https://www.ssi.gouv.fr/uploads/liste-produits-et-services-qualifies.pdf">la liste des produits et services qualifiés</a>.</p></li>
+<li><p><a href="https://www.cybermalveillance.gouv.fr">La plateforme cybermalveillance.gouv.fr</a> d'aide nationale d’assistance aux victimes d’actes de cybermalveillance, de sensibilisation aux risques numériques et d’observation de la menace en France, notamment les <a href="https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/recommandations-securite-informatique-teletravail">recommandations de sécurité informatique pour le télétravail en situation de crise</a>.</p></li>
+<li><p>Le <a href="https://www.cnil.fr/sites/default/files/atoms/files/cnil_guide_securite_personnelle.pdf">guide de la sécurité des données personnelles</a> et les <a href="https://www.cnil.fr/fr/byod-quelles-sont-les-bonnes-pratiques">bonnes pratiques du BYOD</a> de la <a href="https://www.cnil.fr">CNIL</a> ainsi que la <a href="https://linc.cnil.fr/fr/une-cartographie-des-outils-et-pratiques-de-protection-de-la-vie-privee">cartographie des outils et pratiques de protection de la vie privée</a> du <a href="https://linc.cnil.fr">LINC</a>.</p></li>
+</ul>
+<h1 id="vous-souhaitez-contribuez-à-ce-guide">Vous souhaitez contribuez à ce guide ?</h1>
+<ul>
+<li><p>Ce guide est publié sous <a href="https://www.gnu.org/licenses/gpl-3.0.html">licence GPLv3</a> et sous <a href="https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf">licence ouverte 2.0</a> (explicitement compatible avec <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC-BY 4.0 FR</a>). <strong>Il est donc librement partageable</strong>. Vous en trouverez une version PDF dans l'onglet <a href="https://github.com/LINCnil/Recommandations-pour-le-teletravail/releases">&quot;Releases&quot;</a>.</p></li>
+<li><p><strong>Vous pouvez contribuer à son enrichissement.</strong> Cela se fait en quelques étapes :</p></li>
+<li>inscrivez-vous sur la plateforme Github ;</li>
+<li>rendez-vous sur la page du projet ;</li>
+<li>vous pouvez :
+<ul>
+<li>utiliser l’onglet <a href="https://github.com/LINCnil/Recommandations-pour-le-teletravail/issues">&quot;Issue&quot;</a> pour ouvrir des commentaires ou participer à la discussion</li>
+<li>utiliser l'option &quot;Fork&quot; en bannière de cette page pour faire vos propres modifications et proposer leur inclusion via le bouton &quot;Pull Requests&quot;</li>
+</ul></li>
+<li><p><strong>Toutes vos propositions de contribution seront examinées par la CNIL avant publication</strong>.</p></li>
+</ul>
+            </div>
+</div>
+</body>
+</html>
