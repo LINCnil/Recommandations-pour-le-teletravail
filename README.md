@@ -38,9 +38,9 @@
 
 * **Installez uniquement des applications autorisées par votre entreprise.** Si votre entreprise ne propose pas de système de déploiement d'application, téléchargez celles-ci depuis les sites ou les magasins officiels des éditeurs.
 
-* **Privilégiez des outils de communication chiffrés de bout en bout**, si votre entreprise ne vous fournit pas d’outil de communication sécurisé. Dans tous les cas, respectez toujours les instructions de votre employeur.
+* **Privilégiez des outils de communication chiffrés de bout en bout**, si votre entreprise ne vous fournit pas d’outils de communication sécurisé. Dans tous les cas, respectez toujours les instructions de votre employeur.
 
-* **Privilégiez les systèmes de visioconférence qui protègent la vie privée**. Vérifiez les conditions d’utilisation de votre logiciel pour vous asssuez que ces outils garantissent la confidentialité de vos données et ne les réutilisent pas pour d’autres finalités. L’ANSSI a certifié [Tixeo](https://www.ssi.gouv.fr/entreprise/certification_cspn/tixeoserver-version-11-5-2-0/) pour les administrations, les Opérateurs d’Importance Vitale (OIV) et les entreprises soucieuses de leur sécurité.
+* **Privilégiez les systèmes de visioconférence qui protègent la vie privée**. Vérifiez les conditions d’utilisation de votre logiciel pour vous assurez que ces outils garantissent la confidentialité de vos données et ne les réutilisent pas pour d’autres finalités. L’ANSSI a certifié [Tixeo](https://www.ssi.gouv.fr/entreprise/certification_cspn/tixeoserver-version-11-5-2-0/) pour les administrations, les Opérateurs d’Importance Vitale (OIV) et les entreprises soucieuses de leur sécurité.
 
 ## Soyez particulièrement vigilant sur les tentatives d'hameçonnage
 
