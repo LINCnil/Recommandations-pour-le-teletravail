@@ -59,7 +59,7 @@
 
 * Éditez une **charte de sécurité dans le cadre du télétravail** ou, dans le contexte actuel, au moins un socle de règles minimales à respecter, et communiquez ce document à vos collaborateurs suivant votre règlement intérieur.
 
-* Si vous devez modifier les règles de gestion de votre SI pour permettre le télétravail ([changement des règles d'habilitation)(https://www.cnil.fr/fr/securite-authentifier-les-utilisateurs), accès des administrateurs à distance, etc.), **mesurez les risques encourus** et, au besoin, **prenez les mesures nécessaires** pour maintenir le niveau de sécurité.
+* Si vous devez modifier les règles de gestion de votre SI pour permettre le télétravail ([changement des règles d'habilitation](https://www.cnil.fr/fr/securite-authentifier-les-utilisateurs), accès des administrateurs à distance, etc.), **mesurez les risques encourus** et, au besoin, **prenez les mesures nécessaires** pour maintenir le niveau de sécurité.
 
 * **Équipez tous les postes de travail de vos salariés au minimum d'un pare-feu, d'un anti-virus et d'un outil de blocage de l'accès aux sites malveillants.**
 
