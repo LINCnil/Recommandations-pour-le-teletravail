@@ -30,7 +30,7 @@
     * l'utilisation d'un compte personnel avec des droits limités, protégé par un mot de passe fort et non partagé avec d'autres personnes (par exemple avec d'autres membres de votre famille) et sur lequel les applications installées se limitent au strict nécessaire ;
     * la mise à jour régulière du système d'exploitation et des logiciels utilisés, notamment le navigateur web et ses extensions ;
     * des sauvegardes régulières de votre travail de préférence sur les infrastructures de votre entreprise, si possible en activant une solution de sauvegarde automatique ;
-    * l'utilisation de [mots de passe forts](https://www.cnil.fr/fr/mots-de-passe-des-recommandations-de-securite-minimales-pour-les-entreprises-et-les-particuliers) sur l'ensemble de vos services et l'activation de l'authentification à deux facteurs (clef d'authentification, jeton, sms) dès que cela est proposé par le service. Les [gestionnaires de mots de passe](https://www.cnil.fr/fr/5-arguments-pour-adopter-le-gestionnaire-de-mots-de-passe) vous permettront également de sécuriser leur stockage et leur gestion. La site de la CNIL propose un [outil pour créer rapidement des mots de passe robustes](https://www.cnil.fr/fr/generer-un-mot-de-passe-solide) ainsi qu'[un tutoriel pour utiliser le gestionnaire de mots de passe Keepass](https://www.cnil.fr/fr/atom/14984).
+    * l'utilisation de [mots de passe forts](https://www.cnil.fr/fr/mots-de-passe-des-recommandations-de-securite-minimales-pour-les-entreprises-et-les-particuliers) sur l'ensemble de vos services et l'activation de l'authentification à deux facteurs (clef d'authentification, jeton, sms) dès que cela est proposé par le service. Les [gestionnaires de mots de passe](https://www.cnil.fr/fr/5-arguments-pour-adopter-le-gestionnaire-de-mots-de-passe), par exemple les logiciels [KeePass](https://keepass.info/) et [ZenyPass](https://zenyway.com/password-manager/home/fr/index.html), vous permettront également de sécuriser leur stockage et leur gestion. La site de la CNIL propose un [outil pour créer rapidement des mots de passe robustes](https://www.cnil.fr/fr/generer-un-mot-de-passe-solide) ainsi qu'[un tutoriel pour utiliser le gestionnaire de mots de passe Keepass](https://www.cnil.fr/fr/atom/14984).
 
 ## Communiquez en toute sécurité
 
@@ -49,7 +49,7 @@
     * _d'une personne connue vous envoyant une communication inhabituelle._ Essayez de vérifier cette information par un autre canal (téléphone, SMS, mail);
     * _de personnes cherchant à créer un sentiment d'urgence ou de danger._ Le cas échéant, toujours utiliser un autre canal pour vérifier les informations communiquées, par exemple en effectuant une recherche sur Internet.
 
-* **En cas de doute, demandez de l'aide à votre responsable de la sécurité des systèmes informatiques** (RSSI).
+* **En cas de doute, demandez de l'aide à votre directeur des systèmes d'information (DSI) ou votre responsable de la sécurité des systèmes informatiques(RSSI)**.
 
 # Pour les entreprises
 
@@ -57,9 +57,9 @@
 
 ## Sécurisez votre système d’information
 
-* Éditez une **charte de sécurité dans le cadre du télétravail** et communiquez-la à vos collaborateurs suivant votre règlement intérieur.
+* Éditez une **charte de sécurité dans le cadre du télétravail** ou, dans le contexte actuel, au moins un socle de règles minimales à respecter, et communiquez ce document à vos collaborateurs suivant votre règlement intérieur.
 
-* Si vous devez modifier les règles de gestion de votre SI pour permettre le télétravail (changement des règles d'habilitation, accès des administrateurs à distance, etc.), **mesurez les risques encourus** et, au besoin, **prenez les mesures nécessaires** pour maintenir le niveau de sécurité.
+* Si vous devez modifier les règles de gestion de votre SI pour permettre le télétravail ([changement des règles d'habilitation)(https://www.cnil.fr/fr/securite-authentifier-les-utilisateurs), accès des administrateurs à distance, etc.), **mesurez les risques encourus** et, au besoin, **prenez les mesures nécessaires** pour maintenir le niveau de sécurité.
 
 * **Équipez tous les postes de travail de vos salariés au minimum d'un pare-feu, d'un anti-virus et d'un outil de blocage de l'accès aux sites malveillants.**
 
