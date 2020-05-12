@@ -19,18 +19,31 @@
 ## Favorisez l'usage d'équipements fournis et contrôlés par votre entreprise
 
 * Si vous en avez la possibilité, utilisez autant que possible le VPN (Virtual Private Network ou réseau privé virtuel) mis à disposition par votre entreprise :
-    * privilégiez l'échange de données à travers les stockages disponibles depuis le VPN plutôt que par la messagerie électronique; 
-    * connectez-vous au moins une fois par jour au VPN pour appliquer les mises à jour; 
-    * désactivez votre VPN seulement lorsque vous utilisez des services consommateurs de bande passante, comme le streaming vidéo, qui ne nécessitent pas de passer par le réseau de votre entreprise.
+    * **privilégiez l'échange de données à travers les stockages disponibles depuis le VPN** plutôt que par la messagerie électronique; 
+    * **connectez-vous au moins une fois par jour au VPN** pour appliquer les mises à jour; 
+    * **désactivez votre VPN seulement lorsque vous utilisez des services consommateurs de bande passante**, comme le streaming vidéo, qui ne nécessitent pas de passer par le réseau de votre entreprise.
 
 ## Si vous devez utiliser un ordinateur personnel, assurez-vous qu'il est suffisamment sécurisé
 
 * Cela doit passer par:
-    * l'installation d'un antivirus et d'un pare-feu. Si vous êtes sur le système d'exploitation _Windows 10_, vérifiez l’état de vos systèmes de protection au moyen du [centre de sécurité](https://support.microsoft.com/fr-fr/help/4013263/windows-10-stay-protected-with-windows-security) ;
-    * l'utilisation d'un compte personnel avec des droits limités, protégé par un mot de passe fort et non partagé avec d'autres personnes (par exemple avec d'autres membres de votre famille) et sur lequel les applications installées se limitent au strict nécessaire ;
-    * la mise à jour régulière du système d'exploitation et des logiciels utilisés, notamment le navigateur web et ses extensions ;
-    * des sauvegardes régulières de votre travail de préférence sur les infrastructures de votre entreprise, si possible en activant une solution de sauvegarde automatique ;
-    * l'utilisation de [mots de passe forts](https://www.cnil.fr/fr/mots-de-passe-des-recommandations-de-securite-minimales-pour-les-entreprises-et-les-particuliers) sur l'ensemble de vos services et l'activation de l'authentification à deux facteurs (clef d'authentification, jeton, sms) dès que cela est proposé par le service. Les [gestionnaires de mots de passe](https://www.cnil.fr/fr/5-arguments-pour-adopter-le-gestionnaire-de-mots-de-passe), par exemple les logiciels [KeePass](https://keepass.info/) et [ZenyPass](https://zenyway.com/password-manager/home/fr/index.html), vous permettront également de sécuriser leur stockage et leur gestion. La site de la CNIL propose un [outil pour créer rapidement des mots de passe robustes](https://www.cnil.fr/fr/generer-un-mot-de-passe-solide) ainsi qu'[un tutoriel pour utiliser le gestionnaire de mots de passe Keepass](https://www.cnil.fr/fr/atom/14984).
+    * **l'installation d'un antivirus et d'un pare-feu**. Si vous êtes sur le système d'exploitation _Windows 10_, vérifiez l’état de vos systèmes de protection au moyen du [centre de sécurité](https://support.microsoft.com/fr-fr/help/4013263/windows-10-stay-protected-with-windows-security) ;
+    * **l'utilisation d'un compte personnel avec des droits limités**, protégé par un mot de passe fort et non partagé avec d'autres personnes (par exemple avec d'autres membres de votre famille) et sur lequel les applications installées se limitent au strict nécessaire ;
+    * **la mise à jour régulière du système d'exploitation et des logiciels utilisés**, notamment le navigateur web et ses extensions. Supprimez ou passez au plus vite à une version récente des logiciels dont le support ou la mise à jour sont abandonnés, comme le système d'exploitation _Windows 7_ (et les versions antérieures comme _Windows XP_) dont le support n’est plus assuré depuis le 14 janvier 2020;
+    * **des sauvegardes régulières de votre travail** de préférence sur les infrastructures de votre entreprise, si possible en activant une solution de sauvegarde automatique ;
+    * **l'utilisation de [mots de passe forts](https://www.cnil.fr/fr/mots-de-passe-des-recommandations-de-securite-minimales-pour-les-entreprises-et-les-particuliers) sur l'ensemble de vos services** et l'activation de l'authentification à deux facteurs (clef d'authentification, jeton, sms) dès que cela est proposé par le service. Les [gestionnaires de mots de passe](https://www.cnil.fr/fr/5-arguments-pour-adopter-le-gestionnaire-de-mots-de-passe), par exemple les logiciels [KeePass](https://keepass.info/) et [ZenyPass](https://zenyway.com/password-manager/home/fr/index.html), vous permettront également de sécuriser leur stockage et leur gestion. La site de la CNIL propose un [outil pour créer rapidement des mots de passe robustes](https://www.cnil.fr/fr/generer-un-mot-de-passe-solide) ainsi qu'[un tutoriel pour utiliser le gestionnaire de mots de passe Keepass](https://www.cnil.fr/fr/atom/14984).
+
+## Si vous devez utiliser votre téléphone personnel, protégez vos données et limitez les accès
+
+* Parce qu’ils vous accompagnent partout, les téléphones portables sont particulièrement exposées à la perte et aux vols:
+    * **Evitez d’y enregistrer des informations confidentielles**: codes secrets, codes d'accès, coordonnées bancaires, etc ;  
+    * **[Activez le code PIN et mettez en place un délai de verrouillage automatique du téléphone](https://www.cnil.fr/fr/comment-securiser-au-maximum-lacces-votre-smartphone)**. Évitez les codes trop faciles (date de naissance, 0123, etc.) ; 
+    * **Activez le chiffrement des informations** sur votre téléphone lorsque c’est possible; 
+    * **Notez le numéro "IMEI" du téléphone** pour le bloquer en cas de perte ou de vol ; 
+    * **N’installez des logiciels que depuis les plateformes officielles** et évitez à tout prix les applications de sources inconnues ; 
+    * Lorsque vous installez de nouvelles applications sur votre appareil, **lisez les conditions d'utilisation et la politique de confidentialité et limitez les données auxquelles elles peuvent avoir accès au strict nécessaire**; 
+    * Réglez les [paramètres de géolocalisation](https://www.cnil.fr/fr/maitrisez-les-reglages-vie-privee-de-votre-smartphone) afin de toujours contrôler **quand et par qui être géolocalisé**. 
+
+
 
 ## Communiquez en toute sécurité
 
@@ -38,9 +51,9 @@
 
 * **Installez uniquement des applications autorisées par votre entreprise.** Si votre entreprise ne propose pas de système de déploiement d'application, téléchargez celles-ci depuis les sites ou les magasins officiels des éditeurs.
 
-* **Privilégiez des outils de communication chiffrés de bout en bout**, si votre entreprise ne vous fournit pas d’outils de communication sécurisé. Dans tous les cas, respectez toujours les instructions de votre employeur.
+* **Privilégiez des outils de communication chiffrés de bout en bout**, si votre entreprise ne vous fournit pas d’outils de communication sécurisé. Evitez les applications gratuites qui ne vous offrent pas de garanties fortes de sécurité. Dans tous les cas, respectez toujours les instructions de votre employeur.
 
-* **Privilégiez les systèmes de visioconférence qui protègent la vie privée**. Vérifiez les conditions d’utilisation de votre logiciel pour vous assurez que ces outils garantissent la confidentialité de vos données et ne les réutilisent pas pour d’autres finalités. L’ANSSI a certifié [Tixeo](https://www.ssi.gouv.fr/entreprise/certification_cspn/tixeoserver-version-11-5-2-0/) pour les administrations, les Opérateurs d’Importance Vitale (OIV) et les entreprises soucieuses de leur sécurité.
+* **Privilégiez les systèmes de visioconférence qui protègent la vie privée**. Vérifiez les conditions d’utilisation de votre logiciel pour vous assurez que ces outils garantissent la confidentialité de vos données et ne les réutilisent pas pour d’autres finalités. L’ANSSI a certifié [Tixeo](https://www.ssi.gouv.fr/entreprise/certification_cspn/tixeoserver-version-11-5-2-0/) pour les administrations, les Opérateurs d’Importance Vitale (OIV) et les entreprises soucieuses de leur sécurité. La direction interministérielle du numérique (DINUM) et la Direction Générale de l'Administration et de la Fonction Publique (DGFAP) fournissent un [tableau comparatif](https://www.numerique.gouv.fr/uploads/outils_webconference-agents-etat.pdf) pour vous accompagner dans le choix d’une solution qui convient à votre besoin.
 
 ## Soyez particulièrement vigilant sur les tentatives d'hameçonnage
 
@@ -64,6 +77,8 @@
 * **Équipez tous les postes de travail de vos salariés au minimum d'un pare-feu, d'un anti-virus et d'un outil de blocage de l'accès aux sites malveillants.**
 
 * **Mettez en place un VPN pour éviter l'exposition directe de vos services sur Internet**, dès que cela est possible. Activez l'authentification du VPN à deux facteurs si c'est possible.
+
+* Mettez à disposition de vos salariés une liste d’outils de communications et de travail collaboratif appropriés au travail distant, qui garantissent la confidentialité des échanges et des données partagées. Favorisez des outils dont vous conservez la maîtrise et assurez-vous qu'ils fournissent au minimum une [authentification](https://www.cnil.fr/fr/securite-authentifier-les-utilisateurs) et un [chiffrement des communications](https://www.cnil.fr/fr/securite-chiffrer-garantir-lintegrite-ou-signer) conformes à l'état de l'art et que les données transitant ne sont pas réutilisées pour d'autres finalités (amélioration du produit, publicitaire, etc.). Certains logiciels grand public peuvent transmettre à des tiers les données sur leurs utilisateurs, et s’avèrent donc particulièrement inadaptés pour un usage en entreprise. En outre, la [direction interministérielle du numérique](https://numerique.gouv.fr/dinum/) (DINUM) déconseille l’usage de certains logiciels, tels que Zoom, pour échanger des informations non publiques et recommande d’autres solutions telles que Jitsi. Vous pouvez également vous appuyer sur la liste des produits certifiés [Certification de Sécurité de Premier Niveau (CSPN)](https://www.ssi.gouv.fr/entreprise/produits-certifies/produits-certifies-cspn/) délivrée par l'ANSSI.
 
 ## Si vos services sont accessibles depuis Internet
 
