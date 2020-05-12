@@ -104,7 +104,7 @@
 
   * Le [guide de la sécurité des données personnelles](https://www.cnil.fr/sites/default/files/atoms/files/cnil_guide_securite_personnelle.pdf) et les [bonnes pratiques du BYOD](https://www.cnil.fr/fr/byod-quelles-sont-les-bonnes-pratiques) de la [CNIL](https://www.cnil.fr) ainsi que la [cartographie des outils et pratiques de protection de la vie privée](https://linc.cnil.fr/fr/une-cartographie-des-outils-et-pratiques-de-protection-de-la-vie-privee) du [LINC](https://linc.cnil.fr).
 
-# Vous souhaitez contribuez à ce guide ?
+# Vous souhaitez contribuer à ce guide ?
 
 * Ce guide est publié sous [licence GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) et sous [licence ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf) (explicitement compatible avec [CC-BY 4.0 FR](https://creativecommons.org/licenses/by/4.0/deed.fr)). **Il est donc librement partageable**. Vous en trouverez une version PDF dans l'onglet ["Releases"](https://github.com/LINCnil/Recommandations-pour-le-teletravail/releases).
 
